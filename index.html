@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <title>Mi Tiempo</title>
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <link rel="import" href="bower_components/polymer/polymer.html">
+    <link rel="import" href="bower_components/paper-header-panel/paper-header-panel.html">
+
+    <link rel="import" href="bower_components/mario-weather/mario-weather.html">
+
+    <style media="screen">
+      body{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body class="fullbled layout vertical">
+    <paper-header-panel>
+      <mario-weather></mario-weather>
+    </paper-header-panel>
+  </body>
+</html>
